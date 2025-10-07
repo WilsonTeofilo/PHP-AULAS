@@ -1,7 +1,7 @@
 <?php 
 
-$nome =['wilson','Salve', 'Juremo', 'Pastel Do Võ zé', 'Pc da china', 'Luuqeta', 'Jamelão vai pro canto', 'gostaria de jantar um hamburguer', 'Chat gpt de souza', 
-'Gemini Teofilo neves'];
+$nome =['wilson' => 'M', 'Salve' => 'M','Juremo' => 'M','Pastel Do Võ zé' =>'M' , 'marçele' => 'F', 
+'vitoria' => 'F', 'Kabunis' => 'F', 'gostaria de um pastel' => 'F', 'Chat gpt de souza' => 'F', 'Gemini Teofilo neves' => 'F'];
 $idades = [23,22,21,15,18,16,15,14,18,22,];
 $cidade = ['São paulo', 'Santos', 'Osasco', 'São caetano do sul', 'Ribeirão Preto','São paulo', 'Santos', 'Osasco', 'São caetano do sul', 'Ribeirão Preto',];
 
