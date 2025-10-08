@@ -1,9 +1,12 @@
 <?php 
 
-$nome =['wilson' => 'M', 'Salve' => 'M','Juremo' => 'M','Pastel Do Võ zé' =>'M' , 'marçele' => 'F', 
-'vitoria' => 'F', 'Kabunis' => 'F', 'gostaria de um pastel' => 'F', 'Chat gpt de souza' => 'F', 'Gemini Teofilo neves' => 'F'];
+$nome =['wilson','Salve', 'Jurema', 'Pastel Do Võ zé', 'Marçele', 'Luuqeta', 'kanubis', 
+' jantar um Pastel', 'Chat gpt de souza', 'Gemini Teofilo neves'];
+$sexo = ['M', 'M', 'F', 'M', 'F', 'M', 'F', 'M', 'M', 'F'];
 $idades = [23,22,21,15,18,16,15,14,18,22,];
 $cidade = ['São paulo', 'Santos', 'Osasco', 'São caetano do sul', 'Ribeirão Preto','São paulo', 'Santos', 'Osasco', 'São caetano do sul', 'Ribeirão Preto',];
+$sexos = 0;
+
 
     echo "idade e nome de todos usuários cadastrados: <br>";
 
@@ -19,5 +22,23 @@ if ($idades [$conta] >18){
  }
 }
 
+for ($contagemsexo = 0; $contagemsexo <count ($sexo); $contagemsexo++){
+    if ($sexo[$contagemsexo] =='M'){
+        $sexos +=1;
+        
+    }
+}
+
+for ($contar =0; $contar <count ($cidade); $contar++){
+    if ($cidade[$contar] == "Santos"){
+        echo " <br>  🐋 Vive em santos :<br>". $nome[$contar];
+    }
+}
+
+
+
+
+
+echo "<br> ♂️ total de pessoas do Sexo Masculino: ". $sexos;
 
 ?>
