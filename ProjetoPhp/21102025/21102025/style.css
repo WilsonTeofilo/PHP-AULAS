@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-image: linear-gradient(to right top, #5600de, #8a37df, #ae5ee2, #cb84e6, #e1abec);
+    background-attachment: fixed;
+}
+
+main {
+    background-image: linear-gradient(to right top, #e1abec, #da9ce7, #d48de2, #cd7edd, #c66ed8);
+    background-attachment: fixed;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+input {
+    background-image: linear-gradient(to right top, #5600de, #5600de, #d48de2, #cd7edd, #c66ed8);
+    background-attachment: fixed;
+    
+}
+
+
