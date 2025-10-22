@@ -24,11 +24,17 @@ input {
     border:solid rgb(26, 26, 27);
     border-radius: 5px;
     text-align: center;
+
+    font-weight: 800;
+    
 }
 
-input,:hover::placeholder {
+input:hover::placeholder {
   color: rgb(255, 255, 255);
   transform: scale(1.05);
+  font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+
 }
 
 .container{
